@@ -1,0 +1,28 @@
+/* Additional styles for the Angular Material Toolbar */
+mat-toolbar {
+  background-color: #333; /* Dark background for the toolbar */
+  color: white; /* Text color */
+}
+
+mat-toolbar button {
+  color: white; /* Button text color */
+}
+
+mat-toolbar button.mat-button {
+  margin: 0 10px; /* Space between buttons */
+}
+
+mat-toolbar .mat-toolbar-spacer {
+  flex: 1 1 auto; /* Spacer to push buttons to the right */
+}
+
+/* Active link styling */
+.mat-button.active {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+/* Hover effect for buttons */
+mat-toolbar button:hover {
+  background-color: #444;
+}
